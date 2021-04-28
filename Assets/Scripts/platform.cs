@@ -7,7 +7,7 @@ public class platform : MonoBehaviour
     public GameObject[] obstacles;
     private bool stepped = false;
 
-    private void OnEable()
+    private void OnEnable()
     {
         stepped = false;
 
